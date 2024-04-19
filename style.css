@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('images/bg-header-mobile.png') ;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    font-family: "Bai Jamjuree", "Titillium Web";
+    text-align: center;
+
+}
+
+/*header*/
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 132px 32px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #4c545c;
+    letter-spacing: -0.52px;
+    margin: 64px 0 16px;
+    font-weight: normal;
+}
+
+header img {
+    width: 125px;
+}
+
+header p {
+    color: #9eabb2;
+    letter-spacing: 0.12px;
+    line-height: 26px;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    margin-top: 48px;
+    padding-bottom: 20px;
+}
+
+.ios{
+    background-color: #26bba4;
+    box-shadow: 0 10px 20px 0 rgba(137, 229, 199, 0.5), inset 0 -3px 0 0 rgba(0, 0, 0, 0.15);;
+}
+
+.mac{
+    background-color: #6174ff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), inset 0 -3px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+header div button {
+    width: 100%;
+    padding: 13px 50px;
+    border: none;
+    border-radius: 28px;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0.5px;
+    font-family: "Bai Jamjuree", "Titillium Web";
+}
