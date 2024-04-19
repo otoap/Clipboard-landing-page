@@ -69,6 +69,8 @@ header div {
     width: 100%;
     margin-top: 48px;
     padding-bottom: 20px;
+    display: flex;
+
 }
 
 .ios{
@@ -90,6 +92,7 @@ header div button {
     color: white;
     letter-spacing: 0.5px;
     font-family: "Bai Jamjuree", "Titillium Web";
+    display: inline-block;
 }
 
 /*main*/
@@ -125,3 +128,43 @@ main h2 {
 }
 
 /*middle top section*/
+.middleTopSection{
+    margin-top: 186px;
+    margin-bottom: 131px;
+}
+
+.middleTopSection img {
+    max-width: 100%;
+    margin-top: 65px;
+}
+
+.middleTopSection h2 {
+    margin-bottom: 16px;
+}
+
+/*middle bottom section*/
+.middleBottomSection {
+    margin-bottom: 132px;
+}
+
+.advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    margin-top: 90px;
+}
+
+.advantages h3 {
+    margin: 40px 0 18px;
+}
+
+.logoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:57px;
+    margin-top: 132px;
+}
+
+/*bottom section*/
+
