@@ -167,4 +167,62 @@ main h2 {
 }
 
 /*bottom section*/
+.bottomSection {
+    padding-bottom: 170px;
+}
+.buttonsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 46px;
+}
 
+.buttonsDiv button{
+    width: 100%;
+    padding: 13px 50px;
+    border: none;
+    border-radius: 28px;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0.5px;
+    font-family: "Bai Jamjuree", "Titillium Web";
+    display: inline-block;
+
+}
+
+/*footer*/
+footer {
+    background-color: rgba(158, 171, 178, 0.1);
+    padding: 56px 0 50px;
+}
+
+#footerLogo {
+    width: 55px;
+}
+/*foorer navigation*/
+nav {
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #4c545c;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/*social icons*/
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0;
+}
