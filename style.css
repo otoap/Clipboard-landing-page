@@ -13,6 +13,35 @@ body {
 
 }
 
+h1 {
+    font-size: 32px;
+    color: #4c545c;
+    letter-spacing: -0.52px;
+    margin: 64px 0 16px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 28px;
+    color: #4c545c;
+    letter-spacing: -0.46px;
+    font-weight: 600;
+    
+}
+
+h3 {
+    color: #4c545c;
+    font-size: 24px;
+    letter-spacing: -0.39px;
+    font-weight: 600;
+}
+
+p {
+    color: #9eabb2;
+    letter-spacing: 0.12px;
+    line-height: 26px;
+}
+
 /*header*/
 
 header {
@@ -23,23 +52,14 @@ header {
     align-items: center;
 }
 
-h1 {
-    font-size: 32px;
-    color: #4c545c;
-    letter-spacing: -0.52px;
+header h2 {
     margin: 64px 0 16px;
-    font-weight: normal;
 }
 
 header img {
     width: 125px;
 }
 
-header p {
-    color: #9eabb2;
-    letter-spacing: 0.12px;
-    line-height: 26px;
-}
 
 header div {
     display: flex;
@@ -71,3 +91,37 @@ header div button {
     letter-spacing: 0.5px;
     font-family: "Bai Jamjuree", "Titillium Web";
 }
+
+/*main*/
+main {
+    margin: 140px 32px 0;
+    
+}
+
+main h2 {
+    margin-bottom: 16px;
+}
+
+
+/*top section*/
+
+.topSectionDiv {
+    margin: 56px 0 48px
+}
+
+.topSection img {
+    max-width: 100%;
+}
+
+.description {
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+    margin-top: 56px;
+}
+
+.description h3 {
+    margin-bottom: 10px;
+}
+
+/*middle top section*/
